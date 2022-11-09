@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/fndaraujo/aluratube/issues"
   },
-  "homepage": "https://github.com/fndaraujo/aluratube#readme"
+  "homepage": "https://github.com/fndaraujo/aluratube#readme",
+  "dependencies": {
+    "next": "^13.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
