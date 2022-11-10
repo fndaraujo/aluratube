@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../Header'
 import Menu from '../Menu'
 
 function Layout({ children }) {
@@ -17,6 +18,7 @@ function Layout({ children }) {
                 <title>aluratube</title>
             </Head>
             <Menu />
+            <Header />
             <main>{children}</main>
         </>
     )
