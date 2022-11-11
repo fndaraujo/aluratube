@@ -1,0 +1,15 @@
+{
+    "app": {
+        "organization": "alura",
+        "vendor": "alura cursos",
+        "author": "fernando araujo dos santos",
+        "year": 2022,
+        "product": "aluratube"
+    },
+    "user": {
+        "name": "fernando",
+        "surname": "araujo dos santos",
+        "description": "computer scientist student",
+        "github": "fndaraujo"
+    }
+}
