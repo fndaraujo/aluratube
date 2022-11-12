@@ -1,5 +1,7 @@
+import Timeline from '@/components/Timeline'
+
 function HomePage() {
-    return <div>Welcome to Next.js!</div>
+    return <Timeline />
 }
 
 export default HomePage
