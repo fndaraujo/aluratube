@@ -1,5 +1,7 @@
+import appConfig from '@/aluratube.config.json'
+
 function Menu() {
-    return <div>Menu</div>
+    return <div>{appConfig.app.product}</div>
 }
 
 export default Menu
