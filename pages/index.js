@@ -5,6 +5,7 @@ import VideoAdd from '@/components/VideoAdd'
 import { supabase } from '@/lib/supabase-service'
 
 function HomePage() {
+    const [searchValue, setSearchValue] = React.useState('')
     const [playlists, setPlaylists] = React.useState({})
 
     React.useEffect(() => {
@@ -30,7 +31,7 @@ function HomePage() {
 
     return (
         <>
-            <Timeline playlists={playlists} />
+            <Timeline searchValue={searchValue} playlists={playlists} />
             <VideoAdd />
         </>
     )
