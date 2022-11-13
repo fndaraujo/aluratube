@@ -27,7 +27,7 @@ function HomePage() {
             })
     }, [])
 
-    return <Timeline />
+    return <Timeline playlists={playlists} />
 }
 
 export default HomePage
