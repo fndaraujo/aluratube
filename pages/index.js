@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Timeline from '@/components/Timeline'
+import VideoAdd from '@/components/VideoAdd'
 import { supabase } from '@/lib/supabase-service'
 
 function HomePage() {
@@ -27,7 +28,12 @@ function HomePage() {
             })
     }, [])
 
-    return <Timeline playlists={playlists} />
+    return (
+        <>
+            <Timeline playlists={playlists} />
+            <VideoAdd />
+        </>
+    )
 }
 
 export default HomePage
