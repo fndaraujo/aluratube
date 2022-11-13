@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { supabase } from '@/lib/supabase-service'
+
 function useForm(props) {
     const [values, setValues] = React.useState(props.initialValues)
     return {
@@ -20,6 +22,20 @@ function VideoAdd() {
             <form
                 onSubmit={(e) => {
                     e.preventDefault()
+                    supabase
+                        .from('video')
+                        .insert({
+                            title: formValues.values.title,
+                            url: formValues.values.url,
+                            thumbnail: `https://img.youtube.com/vi/${
+                                formValues.values.url.split('v=')[1]
+                            }/maxresdefault.jpg`,
+                            playlist: 'games',
+                        })
+                        .then(alert(`Video ${formValues.values.title} added!`))
+                        .catch((err) => {
+                            alert(`Cannot add video: ${err}`)
+                        })
                 }}
             >
                 <button>x</button>
