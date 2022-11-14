@@ -5,7 +5,7 @@ function SearchBar() {
                 type={'text'}
                 placeholder={'Search video...'}
                 onChange={(e) => {
-                    setSearchValue(e.target.value)
+                    //setSearchValue(e.target.value)
                 }}
             />
             <button>?</button>
