@@ -36,7 +36,7 @@ A number of packages are required by the application during the building. It is 
 # Clone this repository.
 git clone "https://github.com/fndaraujo/aluratube.git"
 
-# Enter the cloned repository
+# Enter the cloned repository.
 cd aluratube
 
 # Install packages.
@@ -97,12 +97,12 @@ sudo docker run --rm \
 
 ## License
 
-See LICENSE.
+See [LICENSE](https://github.com/fndaraujo/aluratube/blob/main/LICENSE) file.
 
 ## Authors
 
-See AUTHORS.md.
+See [AUTHORS.md](https://github.com/fndaraujo/aluratube/blob/main/AUTHORS.md) file.
 
 ## Contributors
 
-See AUTHORS.md.
+See [AUTHORS.md](https://github.com/fndaraujo/aluratube/blob/main/AUTHORS.md) file.
