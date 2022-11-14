@@ -4,7 +4,8 @@
         "vendor": "alura cursos",
         "author": "fernando araujo dos santos",
         "year": 2022,
-        "product": "aluratube"
+        "product": "aluratube",
+        "version": "0.1.0"
     },
     "user": {
         "name": "fernando",
