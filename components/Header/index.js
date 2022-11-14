@@ -17,7 +17,7 @@ function Header() {
                 height={420}
                 alt="A user photo from github profile"
             />
-            <h2>{appConfig.user.name}</h2>
+            <h2>{`${appConfig.user.name} ${appConfig.user.surname}`}</h2>
             <h3>{appConfig.user.description}</h3>
         </>
     )
