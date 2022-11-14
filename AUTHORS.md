@@ -1,14 +1,17 @@
 # AUTHORS & CONTRIBUTORS
 
+A list of authors and contributors of the project.
 
-[Alura Cursos](https://github.com/alura-cursos)
+-   [Alura](https://www.alura.com.br/)
+    <br />
+    <br />
 
+-   [Mario Souto](https://github.com/omariosouto)
 
-[Mario Souto](https://github.com/omariosouto)
+-   [Nayanne Lopes](https://github.com/NayanneBatista)
 
-[Nayanne Lopes](https://www.linkedin.com/in/nayannebatista)
+-   [Paulo Silveira](https://github.com/peas)
+    <br />
+    <br />
 
-[Paulo Silveira](https://www.linkedin.com/in/paulosilveira)
-
-
-[Fernando Araujo dos Santos](https://github.com/fndaraujo)
+-   [Fernando Araujo dos Santos](https://github.com/fndaraujo)
