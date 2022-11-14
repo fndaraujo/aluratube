@@ -13,7 +13,9 @@ function Timeline({ searchValue, ...props }) {
                         <div>
                             {videos
                                 .filter((video) => {
-                                    return video.title.includes(searchValue)
+                                    return video.title
+                                        .toLowerCase()
+                                        .includes(searchValue.toLowerCase())
                                 })
                                 .map((video) => {
                                     return (
