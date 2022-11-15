@@ -1,6 +1,8 @@
+import StyledSearchBar from 'components/Menu/searchbar.styled'
+
 function SearchBar() {
     return (
-        <div>
+        <StyledSearchBar>
             <input
                 type={'text'}
                 placeholder={'Search video...'}
@@ -9,7 +11,7 @@ function SearchBar() {
                 }}
             />
             <button>?</button>
-        </div>
+        </StyledSearchBar>
     )
 }
 
