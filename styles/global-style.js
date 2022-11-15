@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
+import appConfig from 'aluratube.config.json'
+
 const GlobalStyle = createGlobalStyle`
     // Reset default css configuration.
     html {
@@ -20,6 +22,20 @@ const GlobalStyle = createGlobalStyle`
     img {
         max-width: 100%;
         height: auto;
+    }
+    // Default application style.
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: ${appConfig.themes.light.backgroundBase};
+        color: ${appConfig.themes.light.textColorBase};
+    }
+    button, a {
+        text-decoration: none;
+        transition: .3s;
+        &:hover,
+        &:focus {
+            opacity: .5;
+        }
     }
 `
 export default GlobalStyle
