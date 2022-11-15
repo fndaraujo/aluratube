@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import appConfig from 'aluratube.config.json'
+
 const StyledTimeline = styled.div`
     flex: 1;
     width: 100%;
@@ -39,7 +41,9 @@ const StyledTimeline = styled.div`
                     padding-top: 0.5rem;
                     display: block;
                     padding-right: 1.5rem;
-                    color: ${({ theme }) => theme.textColorBase || '#222222'};
+                    color: ${({ theme }) =>
+                        theme.textColorBase ||
+                        appConfig.themes.light.textColorBase};
                 }
             }
         }

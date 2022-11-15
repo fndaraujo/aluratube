@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
+import appConfig from 'aluratube.config.json'
+
 const StyledHeader = styled.div`
-    background-color: ${({ theme }) => theme.backgroundLevel1 || '#ffffff'};
+    background-color: ${({ theme }) =>
+        theme.backgroundLevel1 || appConfig.themes.light.backgroundLevel1};
     img {
         width: 5rem;
         height: 5rem;
