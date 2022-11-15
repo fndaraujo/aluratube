@@ -1,10 +1,11 @@
 import Image from 'next/image'
+import StyledTimeline from 'components/Timeline/index.styled'
 
 function Timeline({ searchValue, ...props }) {
     const playlistNames = Object.keys(props.playlists)
 
     return (
-        <div>
+        <StyledTimeline>
             {playlistNames.map((playlistName) => {
                 const videos = props.playlists[playlistName]
                 return (
@@ -35,7 +36,7 @@ function Timeline({ searchValue, ...props }) {
                     </section>
                 )
             })}
-        </div>
+        </StyledTimeline>
     )
 }
 
